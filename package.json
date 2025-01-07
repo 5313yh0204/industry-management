@@ -1,15 +1,34 @@
 {
-  "name": "industry-management",
-  "version": "0.1.0",
+  "name": "industry-input-app",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@material-ui/core": "^4.12.4",
+    "@mui/material": "^6.1.7",
+    "@reduxjs/toolkit": "^2.5.0",
+    "ag-grid-community": "^32.3.3",
+    "ag-grid-react": "^32.3.3",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "localforage": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.4",
+    "pg": "^8.13.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-draggable": "^4.4.6",
+    "react-redux": "^7.2.6",
+    "react-scripts": "5.0.0",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0",
+    "redux-state-sync": "^3.1.4"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +53,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.9"
   }
 }
